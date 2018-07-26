@@ -30,6 +30,8 @@ public class SellApplicationTests {
         byCategoryTypeIn.forEach(productCategory -> {
             System.out.println(productCategory);
         });
+//        ProductCategory productCategory=new ProductCategory("test",4);
+//        productCategoryRepository.save(productCategory);
     }
 
 }

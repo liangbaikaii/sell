@@ -9,9 +9,7 @@ import java.util.Date;
 @Entity
 @Data
 public class ProductCategory implements Serializable {
-    /**
-     * mysql 一定要设置strategy 为IDENTITY（大坑 默认为 auto）
-     */
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer categoryId;
