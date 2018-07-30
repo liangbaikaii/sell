@@ -1,6 +1,7 @@
 package com.lq.sell.service;
 
 import com.lq.sell.dataobject.ProductInfo;
+import com.lq.sell.dto.CartDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -18,5 +19,8 @@ public interface ProductService {
 
     //TODO
     // +- 库存
+    void  increaseStock(List<CartDTO>  cartDTOList);
+
+    void  decreaseStock(List<CartDTO>  cartDTOList);
 
 }

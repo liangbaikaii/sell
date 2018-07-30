@@ -14,6 +14,7 @@ public class OrderDetail {
     @Id
     private String detailId;
     private String orderId;
+    private  String productId;
     private String productName;
     private BigDecimal productPrice;
     private Integer productQuantity;
