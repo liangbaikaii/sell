@@ -5,19 +5,23 @@ import com.lq.sell.dataobject.OrderMaster;
 import com.lq.sell.dataobject.ProductInfo;
 import com.lq.sell.dto.CartDTO;
 import com.lq.sell.dto.OrderDTO;
+import com.lq.sell.enums.OrderStatusEnum;
 import com.lq.sell.enums.ResultEnum;
 import com.lq.sell.repository.OrderDetailRepository;
 import com.lq.sell.repository.OrderMasterRepository;
 import com.lq.sell.sellException.SellException;
 import com.lq.sell.service.OrderService;
 import com.lq.sell.service.ProductService;
+import com.lq.sell.utils.OrderMaster2OrderDTO;
 import com.lq.sell.utils.UniqueKey;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.CollectionUtils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -82,17 +86,58 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public OrderDTO findOne(String orderId) {
-        return null;
+        OrderMaster orderMaster = orderMasterRepository.findById(orderId).get();
+        if (orderMaster == null) {
+            throw new SellException(ResultEnum.ORDER_NOT_EXIST);
+        }
+        List<OrderDetail> orderDetailList = orderDetailRepository.findByOrderId(orderId);
+        if (CollectionUtils.isEmpty(orderDetailList)) {
+            throw new SellException(ResultEnum.ORDER_DETAILR_NOT_EXIST);
+        }
+        OrderDTO orderDTO = new OrderDTO();
+        BeanUtils.copyProperties(orderMaster, orderDTO);
+        orderDTO.setOrderDetailList(orderDetailList);
+        return orderDTO;
     }
 
     @Override
     public Page<OrderDTO> findList(String buyerOpneId, Pageable pageable) {
-        return null;
+        Page<OrderMaster> orderMasterPage = orderMasterRepository.findByBuyerOpenid(buyerOpneId, pageable);
+        List<OrderDTO> orderDTOList = OrderMaster2OrderDTO.convert(orderMasterPage.getContent());
+        return new PageImpl<OrderDTO>(orderDTOList, pageable, orderMasterPage.getTotalElements());
     }
 
+    @Transactional
     @Override
     public OrderDTO cancel(OrderDTO orderDTO) {
-        return null;
+
+        OrderMaster orderMaster = new OrderMaster();
+
+        if (orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode()) || orderDTO.getOrderStatus().equals(OrderStatusEnum.NOPAY.getCode()) || orderDTO.getOrderStatus().equals(OrderStatusEnum.PAY.getCode())) {
+            orderDTO.setOrderStatus(OrderStatusEnum.CANCEL.getCode());
+            orderDTO.setUpdateTime(new Date());
+            BeanUtils.copyProperties(orderDTO, orderMaster);
+            OrderMaster updateOrderMaster = orderMasterRepository.save(orderMaster);
+            if (updateOrderMaster == null) {
+                throw new SellException(ResultEnum.CANCEL_ORDER_ERROR);
+            }
+
+        } else {
+            throw new SellException(ResultEnum.ORDER_STATUS_ERROT);
+        }
+        if (CollectionUtils.isEmpty(orderDTO.getOrderDetailList())) {
+            throw new SellException(ResultEnum.PRODUCT_NOT_EXIST);
+        }
+        List<CartDTO> cartDTOList = orderDTO.getOrderDetailList().stream().map(e -> new CartDTO(e.getProductId(), e.getProductQuantity())).collect(Collectors.toList());
+
+        productService.increaseStock(cartDTOList);
+
+        if (orderDTO.getPayStatus().equals(OrderStatusEnum.PAY.getCode())) {
+            //TODO
+//            退款
+        }
+
+        return orderDTO;
     }
 
     @Override

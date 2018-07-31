@@ -49,6 +49,19 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public void increaseStock(List<CartDTO> cartDTOList) {
+        if (!CollectionUtils.isEmpty(cartDTOList)) {
+            Date date = new Date();
+            for (CartDTO cartDTO : cartDTOList) {
+                ProductInfo productInfo = productInfoRepository.findById(cartDTO.getProductId()).get();
+                if (productInfo == null) {
+                    throw new SellException(ResultEnum.PRODUCT_NOT_EXIST);
+                }
+                int stock = productInfo.getProductStock() + cartDTO.getProductQuantity();
+                productInfo.setUpdateTime(date);
+                productInfo.setProductStock(stock);
+                productInfoRepository.save(productInfo);
+            }
+        }
 
     }
 

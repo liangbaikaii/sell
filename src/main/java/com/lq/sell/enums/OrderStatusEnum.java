@@ -4,6 +4,8 @@ import lombok.Getter;
 
 @Getter
 public enum OrderStatusEnum {
+    FINISH(3,"已完结"),
+    CANCEL(2,"已取消"),
     NEW(0, "新订单"),
     PAY(1, "已付款"),
     NOPAY(-1, "未付款"),
