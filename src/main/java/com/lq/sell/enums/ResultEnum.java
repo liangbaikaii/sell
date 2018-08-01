@@ -4,7 +4,9 @@ import lombok.Getter;
 
 @Getter
 public enum ResultEnum {
-    CANCEL_ORDER_ERROR(2,"取消订单失败"),
+    UPDATE_ORDER_ERROR(4,"更新订单失败"),
+    FINISH_ORDER_ERROR(3, "完结订单失败"),
+    CANCEL_ORDER_ERROR(2, "取消订单失败"),
     ORDER_STATUS_ERROT(1, "订单状态错误"),
     ORDER_DETAILR_NOT_EXIST(-8, "订单详情不存在"),
     ORDER_NOT_EXIST(-9, "订单不存在"),

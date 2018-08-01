@@ -112,7 +112,6 @@ public class OrderServiceImpl implements OrderService {
     public OrderDTO cancel(OrderDTO orderDTO) {
 
         OrderMaster orderMaster = new OrderMaster();
-
         if (orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode()) || orderDTO.getOrderStatus().equals(OrderStatusEnum.NOPAY.getCode()) || orderDTO.getOrderStatus().equals(OrderStatusEnum.PAY.getCode())) {
             orderDTO.setOrderStatus(OrderStatusEnum.CANCEL.getCode());
             orderDTO.setUpdateTime(new Date());
@@ -121,32 +120,60 @@ public class OrderServiceImpl implements OrderService {
             if (updateOrderMaster == null) {
                 throw new SellException(ResultEnum.CANCEL_ORDER_ERROR);
             }
-
         } else {
             throw new SellException(ResultEnum.ORDER_STATUS_ERROT);
         }
+
         if (CollectionUtils.isEmpty(orderDTO.getOrderDetailList())) {
             throw new SellException(ResultEnum.PRODUCT_NOT_EXIST);
         }
         List<CartDTO> cartDTOList = orderDTO.getOrderDetailList().stream().map(e -> new CartDTO(e.getProductId(), e.getProductQuantity())).collect(Collectors.toList());
-
         productService.increaseStock(cartDTOList);
 
         if (orderDTO.getPayStatus().equals(OrderStatusEnum.PAY.getCode())) {
             //TODO
 //            退款
         }
-
         return orderDTO;
     }
 
+    @Transactional
     @Override
     public OrderDTO finish(OrderDTO orderDTO) {
-        return null;
+        if (!orderDTO.equals(OrderStatusEnum.NEW.getCode())) {
+            throw new SellException(ResultEnum.ORDER_STATUS_ERROT);
+        }
+
+        orderDTO.setOrderStatus(OrderStatusEnum.FINISH.getCode());
+        orderDTO.setUpdateTime(new Date());
+        OrderMaster orderMaster = new OrderMaster();
+        BeanUtils.copyProperties(orderDTO, orderMaster);
+        OrderMaster updateMaster = orderMasterRepository.save(orderMaster);
+        if (updateMaster == null) {
+            throw new SellException(ResultEnum.FINISH_ORDER_ERROR);
+        }
+        return orderDTO;
     }
 
+    @Transactional
     @Override
     public OrderDTO paid(OrderDTO orderDTO) {
-        return null;
+        if (!orderDTO.equals(OrderStatusEnum.NEW.getCode())) {
+            throw new SellException(ResultEnum.ORDER_STATUS_ERROT);
+        }
+
+        if (!orderDTO.equals(OrderStatusEnum.WAIT.getCode())) {
+            throw new SellException(ResultEnum.ORDER_STATUS_ERROT);
+        }
+
+        orderDTO.setOrderStatus(OrderStatusEnum.PAY.getCode());
+        orderDTO.setUpdateTime(new Date());
+        OrderMaster orderMaster = new OrderMaster();
+        BeanUtils.copyProperties(orderDTO, orderMaster);
+        OrderMaster updateMaster = orderMasterRepository.save(orderMaster);
+        if (updateMaster == null) {
+            throw new SellException(ResultEnum.UPDATE_ORDER_ERROR);
+        }
+        return orderDTO;
     }
 }
