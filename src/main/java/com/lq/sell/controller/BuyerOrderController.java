@@ -6,6 +6,7 @@ import com.lq.sell.dto.OrderDTO;
 import com.lq.sell.enums.ResultEnum;
 import com.lq.sell.form.OrderForm;
 import com.lq.sell.sellException.SellException;
+import com.lq.sell.service.BuyerService;
 import com.lq.sell.service.OrderService;
 import com.lq.sell.utils.OrderForm2orderDTOConverter;
 import com.lq.sell.utils.ResultVOUtils;
@@ -30,6 +31,9 @@ public class BuyerOrderController {
 
     @Autowired
     private OrderService orderService;
+
+    @Autowired
+    private BuyerService buyerService;
 
     @PostMapping("/create")
     public ResultVO<Map<String, String>> create(@Valid OrderForm orderForm,
@@ -70,18 +74,15 @@ public class BuyerOrderController {
     @GetMapping("/detail")
     public ResultVO<OrderDTO> detail(@RequestParam("openid") String openid,
                                      @RequestParam("orderId") String orderId) {
-        //TODO 不安全的做法
-        OrderDTO orderDTO = orderService.findOne(orderId);
+
+        OrderDTO orderDTO = buyerService.findOrderOne(openid, orderId);
         return ResultVOUtils.success(orderDTO);
     }
 
     @PostMapping("/cancel")
     public ResultVO cancel(@RequestParam("openid") String openid,
                            @RequestParam("orderId") String orderId) {
-        //TODO 不安全的做法
-        OrderDTO orderDTO = orderService.findOne(orderId);
-        orderService.cancel(orderDTO);
-
+        buyerService.cancelOrder(openid, orderId);
         return ResultVOUtils.success();
     }
 }

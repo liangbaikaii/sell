@@ -4,6 +4,7 @@ import lombok.Getter;
 
 @Getter
 public enum ResultEnum {
+    OPENID_ERROR(7,"openid错误"),
     CART_NOT_EMPTY(6,"购物车不能为空"),
     PARAM_ERROR(5,"参数不合法"),
     UPDATE_ORDER_ERROR(4,"更新订单失败"),
