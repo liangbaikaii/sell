@@ -14,3 +14,13 @@ server:
   servlet:
     context-path: /sell
 
+
+wechat:
+  appid: wx940c29bd5e0c0cc1
+#  appid: wx295cbc0caa647a18
+
+  secret: 754d9a39a682c0433cf25b8cd7d9933c
+#  secret: 765831a9b97bee46f7d1b03efbbb3ec3
+  returnUrl: http://a714bbd8.ngrok.io/sell/wechat/userInfo
+  token: myo2o
+

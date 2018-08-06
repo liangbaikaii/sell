@@ -1,1 +1,1 @@
-2018-07-25 20:33:34.862 [main] ERROR com.lq.sell.SellApplication - this  is  debug
+2018-08-06 23:05:46.032 [http-nio-8080-exec-3] ERROR com.lq.sell.controller.WechatController - 不合法
