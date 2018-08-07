@@ -1,137 +1,185 @@
-2018-08-06 20:21:56.618 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13428 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 20:21:56.650 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 20:22:09.454 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 15.37 seconds (JVM running for 17.861)
-2018-08-06 20:23:19.164 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
-2018-08-06 21:01:53.427 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13136 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 21:01:53.435 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 21:03:28.903 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12360 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 21:03:28.912 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 21:03:34.847 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.038 seconds (JVM running for 7.828)
-2018-08-06 21:05:13.622 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code resulthttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baiidu.com#wechat_redirect
-2018-08-06 21:07:37.737 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10584 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 21:07:37.745 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 21:07:45.376 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.916 seconds (JVM running for 10.827)
-2018-08-06 21:09:32.420 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - 获得code resulthttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 21:12:56.810 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - 获得code resulthttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 21:13:46.925 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 1952 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 21:13:46.931 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 21:13:52.567 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.452 seconds (JVM running for 7.189)
-2018-08-06 21:14:52.903 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 21:17:28.106 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 21:18:05.824 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 21:18:20.955 [http-nio-8080-exec-7] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 21:18:57.953 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 5856 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 21:18:57.966 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 21:19:03.326 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.117 seconds (JVM running for 6.998)
-2018-08-06 21:19:07.039 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 21:20:10.044 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 21:22:58.390 [http-nio-8080-exec-7] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 21:23:13.908 [http-nio-8080-exec-8] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 21:23:55.508 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 21:58:50.401 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12500 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 21:58:50.408 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 21:58:55.476 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.808 seconds (JVM running for 6.672)
-2018-08-06 21:59:02.481 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:00:02.011 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - 不合法
-2018-08-06 22:00:17.255 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12428 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:00:17.262 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:00:22.431 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.35 seconds (JVM running for 7.331)
-2018-08-06 22:00:27.753 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:00:27.754 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:00:29.538 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:00:29.538 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:00:31.151 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:00:31.151 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:04:52.357 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 3424 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:04:52.366 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:04:58.831 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.245 seconds (JVM running for 7.963)
-2018-08-06 22:05:10.818 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:05:10.819 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx295cbc0caa647a18&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:05:24.439 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:05:24.440 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx295cbc0caa647a18&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:09:32.170 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11156 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:09:32.178 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:09:37.820 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.49 seconds (JVM running for 7.313)
-2018-08-06 22:10:04.076 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:10:04.077 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx295cbc0caa647a18&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:14:10.084 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 4672 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:14:10.091 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:14:32.649 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 6140 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:14:32.656 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:14:38.293 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.402 seconds (JVM running for 7.138)
-2018-08-06 22:14:45.668 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:14:45.669 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:14:59.738 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 9620 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:14:59.748 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:15:07.208 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.369 seconds (JVM running for 9.452)
-2018-08-06 22:15:26.490 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:15:40.932 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:25:18.071 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12156 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:25:18.076 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:25:23.130 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.237 seconds (JVM running for 6.981)
-2018-08-06 22:25:40.200 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 合法
-2018-08-06 22:25:40.200 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:36:10.231 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13916 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:36:10.238 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:36:16.493 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.0 seconds (JVM running for 7.793)
-2018-08-06 22:37:13.478 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:38:12.760 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:38:49.352 [http-nio-8080-exec-7] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2Fcheck#wechat_redirect
-2018-08-06 22:39:49.692 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2Fcheck#wechat_redirect
-2018-08-06 22:43:01.489 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2Fcheck#wechat_redirect
-2018-08-06 22:47:13.953 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 1040 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:47:13.959 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:47:19.122 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.917 seconds (JVM running for 6.742)
-2018-08-06 22:47:59.233 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.189.cn#wechat_redirect
-2018-08-06 22:48:10.224 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:48:32.604 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:48:56.710 [http-nio-8080-exec-8] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.189.cn#wechat_redirect
-2018-08-06 22:50:40.291 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=https%3A%2F%2Fwww.baidu.com#wechat_redirect
-2018-08-06 22:51:04.191 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 22:54:01.887 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 3188 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 22:54:01.896 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 22:54:07.689 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.68 seconds (JVM running for 7.398)
-2018-08-06 22:54:18.776 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 23:00:47.729 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 7208 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 23:00:47.742 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 23:00:53.823 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.146 seconds (JVM running for 11.125)
-2018-08-06 23:01:02.217 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 23:01:08.691 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 23:01:15.592 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.189.cn#wechat_redirect
-2018-08-06 23:01:25.432 [http-nio-8080-exec-7] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=https%3A%2F%2Fwww.baidu.com#wechat_redirect
-2018-08-06 23:07:10.294 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11568 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 23:07:10.301 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 23:07:15.844 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.62 seconds (JVM running for 7.354)
-2018-08-06 23:09:04.607 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10096 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 23:09:04.614 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 23:09:09.488 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.848 seconds (JVM running for 6.657)
-2018-08-06 23:09:33.285 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 6352 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 23:09:33.297 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 23:09:43.462 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 11.143 seconds (JVM running for 12.237)
-2018-08-06 23:11:27.627 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 23:11:40.288 [http-nio-8080-exec-8] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=https%3A%2F%2Fwww.baidu.com#wechat_redirect
-2018-08-06 23:16:59.168 [http-nio-8080-exec-9] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=https%3A%2F%2Fwww.baidu.com#wechat_redirect
-2018-08-06 23:17:13.673 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.189.cn#wechat_redirect
-2018-08-06 23:20:07.926 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 9780 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 23:20:07.933 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 23:20:14.115 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.907 seconds (JVM running for 7.746)
-2018-08-06 23:20:20.461 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=a714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 23:20:22.636 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code001CzkXY1jJgB01z93XY1S6wXY1CzkX9  statea714bbd8.ngrok.io/sell/wechat/userInfo
-2018-08-06 23:20:23.757 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
-2018-08-06 23:20:38.567 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.baidu.com#wechat_redirect
-2018-08-06 23:20:39.728 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - redirect code011MG2b000HFBF1smjc00bP0b00MG2b5  statewww.baidu.com
-2018-08-06 23:20:39.899 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
-2018-08-06 23:21:04.038 [http-nio-8080-exec-9] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=https%3A%2F%2Fwww.baidu.com#wechat_redirect
-2018-08-06 23:21:06.538 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - redirect code081xEFwr118eDo0prVwr1vJywr1xEFwx  statehttps://www.baidu.com
-2018-08-06 23:21:06.863 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
-2018-08-06 23:23:48.742 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 23:23:49.987 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - redirect code071Ggut72gTQ8K08RLt72Oh4t72Ggut-  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
-2018-08-06 23:23:50.328 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
-2018-08-06 23:26:02.362 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 3240 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-06 23:26:02.370 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-06 23:26:07.528 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.966 seconds (JVM running for 6.86)
-2018-08-06 23:26:10.880 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
-2018-08-06 23:26:12.137 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code011An3Ts0IM23d1IUXVs07w9Ts0An3T7  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
-2018-08-06 23:26:12.698 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
-2018-08-06 23:26:12.698 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
-2018-08-06 23:26:12.698 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 20:51:46.006 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 14116 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 20:51:46.033 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 20:51:52.087 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.996 seconds (JVM running for 9.739)
+2018-08-07 21:11:20.726 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 2092 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:11:20.733 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:11:25.739 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.021 seconds (JVM running for 6.734)
+2018-08-07 21:12:09.964 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 4648 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:12:09.973 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:12:15.089 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.354 seconds (JVM running for 7.253)
+2018-08-07 21:12:43.600 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 9044 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:12:43.607 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:12:49.049 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.601 seconds (JVM running for 7.326)
+2018-08-07 21:15:33.445 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13524 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:15:33.455 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:15:38.889 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.19 seconds (JVM running for 7.04)
+2018-08-07 21:15:53.762 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:16:50.386 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 4704 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:16:50.391 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:16:55.233 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.988 seconds (JVM running for 6.754)
+2018-08-07 21:17:29.589 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:17:31.158 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code0619M1IJ1ZfHt60fTqIJ1t76IJ19M1In  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:17:31.888 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:17:31.888 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:17:31.889 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:18:09.218 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:18:10.348 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - redirect code06179lP70aLEdI1yW0P70hf8P7079lP4  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:18:10.685 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:18:10.686 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:18:10.686 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.WechatController - return urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:18:18.559 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:18:32.860 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:22:17.798 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12860 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:22:17.807 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:22:22.963 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.974 seconds (JVM running for 6.827)
+2018-08-07 21:22:34.597 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:22:35.886 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code081ptmW62DTWFJ0Nd8Z6296mW62ptmWv  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:22:36.483 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:22:36.483 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:22:36.483 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:23:03.558 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:24:45.202 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11312 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:24:45.223 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:24:51.666 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.8 seconds (JVM running for 9.064)
+2018-08-07 21:25:34.906 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:25:36.083 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code061wAKXK0ncJF52gidYK0fXzXK0wAKXk  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:25:36.725 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:25:36.725 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:25:36.725 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:26:09.737 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:26:10.978 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code08125ZYJ0OaFF62OTOYJ0kUIYJ025ZYz  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:26:11.319 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:26:11.319 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:26:11.319 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:26:24.050 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:26:52.398 [http-nio-8080-exec-9] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:26:53.783 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - redirect code081neUan1BlkEi0LgWdn1fFMan1neUa0  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:26:54.120 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - openido2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:26:54.120 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:26:54.120 [http-nio-8080-exec-10] INFO  com.lq.sell.controller.WechatController - return urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:27:25.103 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:34:16.752 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 1144 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:34:16.758 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:34:21.607 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.977 seconds (JVM running for 6.75)
+2018-08-07 21:34:27.423 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:34:28.618 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code0012LySt0DWg3c1BiwVt0ODHSt02LySK  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:34:29.179 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:34:29.180 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:34:29.180 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:34:38.426 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:35:44.275 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 3580 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:35:44.282 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:35:49.585 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.367 seconds (JVM running for 7.268)
+2018-08-07 21:36:01.236 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:36:03.594 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code001h2Nli2vo0oH0OXmji2iXnli2h2Nl9  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:36:04.153 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:36:04.153 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:36:04.154 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:36:39.511 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:37:50.014 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:38:18.661 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:38:39.051 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12656 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:38:39.058 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:38:44.205 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.078 seconds (JVM running for 6.841)
+2018-08-07 21:38:49.205 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:38:51.714 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code021dYn8r1fMgSo0sKW9r1YT28r1dYn8s  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:38:52.295 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:38:52.295 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:38:52.295 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:38:55.335 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:39:01.692 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:39:12.248 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:39:15.321 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:39:29.404 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:40:33.346 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10708 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:40:33.352 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:40:40.305 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.934 seconds (JVM running for 8.659)
+2018-08-07 21:43:33.085 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13028 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:43:33.093 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:43:58.602 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 7304 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:43:58.609 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:44:04.011 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.154 seconds (JVM running for 6.918)
+2018-08-07 21:44:04.936 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:44:08.310 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code02179PBK1fyOo50QJyDK1YkfCK179PBI  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:44:08.885 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:44:08.885 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:44:08.885 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:44:12.961 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:44:20.282 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:44:36.112 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:45:09.118 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 2880 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:45:09.129 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:45:16.414 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.316 seconds (JVM running for 9.314)
+2018-08-07 21:45:41.769 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:45:43.262 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code021zEG6l1tkjQk0cPM7l1hRR6l1zEG6X  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:45:43.940 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:45:43.940 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:45:43.941 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:46:23.245 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:48:19.810 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12688 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:48:19.816 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:48:25.483 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.786 seconds (JVM running for 7.597)
+2018-08-07 21:48:35.455 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:51:04.697 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11044 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:51:04.705 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:51:10.058 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.052 seconds (JVM running for 6.826)
+2018-08-07 21:51:13.767 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:51:18.092 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:51:31.070 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:51:32.389 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - redirect code011veoKy1WtRig018DJy1FlqKy1veoKg  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:51:32.937 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:51:32.937 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:51:32.937 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:51:37.032 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:51:45.861 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:51:47.514 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:52:58.725 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:53:09.340 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:55:35.811 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 4536 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:55:35.818 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:55:40.800 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.078 seconds (JVM running for 6.85)
+2018-08-07 21:56:10.544 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:56:16.497 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:56:18.735 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - redirect code021kNOUC1iuC040GfPXC1OcVUC1kNOUn  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:56:19.316 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:56:19.317 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:56:19.317 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:56:22.524 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:56:44.661 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13332 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 21:56:44.666 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 21:56:49.500 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 5.882 seconds (JVM running for 6.661)
+2018-08-07 21:56:54.391 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 21:56:55.973 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - redirect code001LALzj1rxEzw0Oilxj1Zq0Aj1LALz9  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:56:56.525 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 21:56:56.525 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 21:56:56.525 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 21:56:59.313 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 21:57:28.937 [http-nio-8080-exec-9] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=3, productName=鸡蛋, productPrice=2.20, productStock=49, productDescription=好蛋, productIcon=33rrr, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:31.0, updateTime=Tue Aug 07 21:57:28 CST 2018) stock is 49
+2018-08-07 21:59:47.849 [http-nio-8080-exec-2] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=3, productName=鸡蛋, productPrice=2.20, productStock=49, productDescription=好蛋, productIcon=33rrr, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:31.0, updateTime=Tue Aug 07 21:59:47 CST 2018) stock is 49
+2018-08-07 21:59:53.580 [http-nio-8080-exec-3] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=3, productName=鸡蛋, productPrice=2.20, productStock=49, productDescription=好蛋, productIcon=33rrr, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:31.0, updateTime=Tue Aug 07 21:59:53 CST 2018) stock is 49
+2018-08-07 22:00:15.670 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 1580 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 22:00:15.677 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 22:00:20.614 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.062 seconds (JVM running for 7.019)
+2018-08-07 22:00:31.397 [http-nio-8080-exec-1] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=3, productName=鸡蛋, productPrice=2.20, productStock=49, productDescription=好蛋, productIcon=33rrr, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:31.0, updateTime=Tue Aug 07 22:00:31 CST 2018) stock is 49
+2018-08-07 22:00:39.897 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 22:00:41.555 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 22:00:42.728 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - redirect code061kVh9M11Vlk41dllcM1i2q9M1kVh95  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 22:00:43.295 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 22:00:43.295 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 22:00:43.295 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 22:00:48.654 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 22:01:01.526 [http-nio-8080-exec-4] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=3, productName=鸡蛋, productPrice=2.20, productStock=49, productDescription=好蛋, productIcon=33rrr, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:31.0, updateTime=Tue Aug 07 22:01:01 CST 2018) stock is 49
+2018-08-07 22:01:36.348 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13328 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-07 22:01:36.354 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-07 22:01:41.287 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.067 seconds (JVM running for 6.885)
+2018-08-07 22:01:41.595 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 22:01:43.454 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.WechatController - 获得code redirectUrlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx940c29bd5e0c0cc1&redirect_uri=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fa714bbd8.ngrok.io%2Fsell%2Fwechat%2FuserInfo#wechat_redirect
+2018-08-07 22:01:45.397 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - redirect code081IENeM0yPIo42rNIeM02rReM0IENe2  statehttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 22:01:45.959 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - openid-->o2DPo0aZ1K_kQudgZixTs735mJ7Y
+2018-08-07 22:01:45.959 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - enter
+2018-08-07 22:01:45.959 [http-nio-8080-exec-4] INFO  com.lq.sell.controller.WechatController - return--> urlhttp://a714bbd8.ngrok.io/sell/wechat/userInfo
+2018-08-07 22:01:49.462 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-07 22:02:03.008 [http-nio-8080-exec-1] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=2, productName=梨子, productPrice=8.20, productStock=499, productDescription=好吃, productIcon=222ee, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:27.0, updateTime=Tue Aug 07 22:02:03 CST 2018) stock is 499
+2018-08-07 22:02:06.575 [http-nio-8080-exec-2] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=2, productName=梨子, productPrice=8.20, productStock=498, productDescription=好吃, productIcon=222ee, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:27.0, updateTime=Tue Aug 07 22:02:06 CST 2018) stock is 498
+2018-08-07 22:02:44.977 [http-nio-8080-exec-6] INFO  com.lq.sell.service.impl.ProductServiceImpl - decreaseStock  operatation  is  successful now the  productProductInfo(productId=2, productName=梨子, productPrice=8.20, productStock=497, productDescription=好吃, productIcon=222ee, productStatus=0, categoryType=2, createTime=2018-08-07 21:50:27.0, updateTime=Tue Aug 07 22:02:44 CST 2018) stock is 497
+2018-08-07 22:04:47.735 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]

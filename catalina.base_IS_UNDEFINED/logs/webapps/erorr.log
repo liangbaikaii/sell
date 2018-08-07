@@ -1,1 +1,1 @@
-2018-08-06 23:05:46.032 [http-nio-8080-exec-3] ERROR com.lq.sell.controller.WechatController - 不合法
+2018-08-07 21:52:42.665 [http-nio-8080-exec-6] ERROR com.lq.sell.controller.BuyerOrderController - 创建订单参数不合法[]

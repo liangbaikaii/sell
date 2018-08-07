@@ -34,8 +34,8 @@ webpackJsonp([2, 0], [function (t, e, s) {
                 productionGzip: !1,
                 productionGzipExtensions: ["js", "css"],
                 port: 9e3,
-                sellUrl: "http://sell.liaoshixiong.cn",
-                openidUrl: "http://wx-qa.dbike.co/sell/wechat/authorize",
+                sellUrl: "http://a714bbd8.ngrok.io/sell/static/index.html",
+                openidUrl: "http://a714bbd8.ngrok.io/sell/wechat/authorize",
                 wechatPayUrl: "http://sell.liaoshixiong.cn/sell/pay/create"
             },
             dev: {
@@ -45,8 +45,8 @@ webpackJsonp([2, 0], [function (t, e, s) {
                 assetsPublicPath: "/",
                 proxyTable: {},
                 cssSourceMap: !1,
-                sellUrl: "http://sell.com",
-                openidUrl: "http://wx-qa.dbike.co/sell/wechat/authorize",
+                sellUrl: "http://a714bbd8.ngrok.io/sell/static/index.html",
+                openidUrl: "http://a714bbd8.ngrok.io/sell/wechat/authorize",
                 wechatPayUrl: "http://sell.s1.natapp.cc/sell/pay/create"
             }
         }

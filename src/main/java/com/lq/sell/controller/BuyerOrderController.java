@@ -57,16 +57,17 @@ public class BuyerOrderController {
 
 
     @RequestMapping("/list")
-    public ResultVO<List<OrderDTO>> list(@RequestParam("openid") String openid,
-                                         @RequestParam(value = "page", defaultValue = "0") Integer page,
-                                         @RequestParam(value = "size", defaultValue = "10") Integer size) {
+    public ResultVO<List<OrderDTO>> list(@RequestParam(value = "openid",defaultValue = "eeeeeeeeeeeeeeeeeee111111") String openid,
+                                         @RequestParam(value = "page",defaultValue = "0")  Integer page,
+                                         @RequestParam(value = "size",defaultValue = "10")  Integer size) {
 
         if (StringUtils.isEmpty(openid)) {
             throw new SellException(ResultEnum.PARAM_ERROR);
         }
         PageRequest pageRequest = new PageRequest(page, size);
         Page<OrderDTO> orderDTOPage = orderService.findList(openid, pageRequest);
-
+          log.info(orderDTOPage.toString());
+          log.info("openid-->",openid);
         return ResultVOUtils.success(orderDTOPage.getContent());
     }
 

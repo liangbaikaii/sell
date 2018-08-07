@@ -14,6 +14,4 @@ public class WechatAccountConfig {
     private  String secret;
     private  String returnUrl;
     private  String token;
-
-
 }

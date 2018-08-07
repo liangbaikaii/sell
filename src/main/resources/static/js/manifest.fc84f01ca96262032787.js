@@ -18,7 +18,7 @@
         if (void 0 !== n[e]) n[e].push(a); else {
             n[e] = [a];
             var r = document.getElementsByTagName("head")[0], c = document.createElement("script");
-            c.type = "text/javascript", c.charset = "utf-8", c.async = !0, c.src = t.p + "static/js/" + e + "." + {
+            c.type = "text/javascript", c.charset = "utf-8", c.async = !0, c.src = t.p + "/static/js/" + e + "." + {
                 1: "e8bcf9a796b8d5dbca42",
                 2: "358ba4041b1fffa354c5"
             }[e] + ".js", r.appendChild(c)

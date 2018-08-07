@@ -51,10 +51,10 @@ public class WechatController {
             throw new SellException(e.getError().getErrorMsg());
         }
         String openId = wxMpOAuth2AccessToken.getOpenId();
-        log.info("openid{}", openId);
+        log.info("openid-->{}", openId);
         log.info("enter");
-        log.info("return url{}", returnUrl);
-        return "redirect:" + "https://www.imooc.com/" + "?openid=" + openId;
+        log.info("return--> url{}", returnUrl);
+        return "redirect:" + "http://a714bbd8.ngrok.io/sell/static/index.html/#/" + "?openid=" + openId;
     }
 
 
@@ -62,7 +62,7 @@ public class WechatController {
     public void check(ServletResponse response, String timestamp, String nonce, String signature, String echostr) {
         if (!wxMpService.checkSignature(timestamp, nonce, signature)) {
             log.error("不合法");
-//            throw new SellException(ResultEnum.WECHAT_ERROR);
+            throw new SellException(ResultEnum.WECHAT_ERROR);
         }
         PrintWriter o = null;
         try {
