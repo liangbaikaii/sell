@@ -149,7 +149,7 @@ public class OrderServiceImpl implements OrderService {
     @Transactional
     @Override
     public OrderDTO finish(OrderDTO orderDTO) {
-        if (!orderDTO.equals(OrderStatusEnum.NEW.getCode())) {
+        if (!orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode())) {
             throw new SellException(ResultEnum.ORDER_STATUS_ERROT);
         }
 
