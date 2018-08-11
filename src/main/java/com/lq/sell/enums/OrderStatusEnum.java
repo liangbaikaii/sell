@@ -1,9 +1,10 @@
 package com.lq.sell.enums;
 
+import com.lq.sell.config.ICodeEnum;
 import lombok.Getter;
 
 @Getter
-public enum OrderStatusEnum {
+public enum OrderStatusEnum  implements ICodeEnum {
     WAIT(4,"等待付款"),
     FINISH(3,"已完结"),
     CANCEL(2,"已取消"),
@@ -18,6 +19,7 @@ public enum OrderStatusEnum {
     OrderStatusEnum(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
+
     }
 
 }

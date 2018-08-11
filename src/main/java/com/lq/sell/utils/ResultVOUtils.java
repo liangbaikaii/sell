@@ -33,6 +33,6 @@ public class ResultVOUtils {
     }
 
     public  static ResultVO  error(){
-        return  error(-10000,"error");
+        return  error(-10000,"错误");
     }
 }

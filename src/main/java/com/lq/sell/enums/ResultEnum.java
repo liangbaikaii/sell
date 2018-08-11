@@ -1,9 +1,10 @@
 package com.lq.sell.enums;
 
+import com.lq.sell.config.ICodeEnum;
 import lombok.Getter;
 
 @Getter
-public enum ResultEnum {
+public enum ResultEnum  implements ICodeEnum{
     WECHAT_ERROR(8,"微信错误"),
     OPENID_ERROR(7,"openid错误"),
     CART_NOT_EMPTY(6,"购物车不能为空"),

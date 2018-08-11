@@ -1,9 +1,10 @@
 package com.lq.sell.enums;
 
+import com.lq.sell.config.ICodeEnum;
 import lombok.Getter;
 
 @Getter
-public enum ProductStatusEnum {
+public enum ProductStatusEnum  implements ICodeEnum{
 
     UP(0, "上架"),
     Down(1,"下架");

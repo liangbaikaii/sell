@@ -1,1 +1,11 @@
-2018-08-07 21:52:42.665 [http-nio-8080-exec-6] ERROR com.lq.sell.controller.BuyerOrderController - 创建订单参数不合法[]
+2018-08-11 15:20:40.240 [http-nio-8080-exec-1] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:20:51.438 [http-nio-8080-exec-3] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:02.964 [http-nio-8080-exec-5] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:03.245 [http-nio-8080-exec-6] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:03.526 [http-nio-8080-exec-7] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:03.839 [http-nio-8080-exec-8] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:11.647 [http-nio-8080-exec-7] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:12.253 [http-nio-8080-exec-8] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:12.855 [http-nio-8080-exec-9] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:13.028 [http-nio-8080-exec-10] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
+2018-08-11 15:21:13.322 [http-nio-8080-exec-2] ERROR com.lq.sell.service.impl.ProductServiceImpl - nowStock  is -2 
