@@ -43,10 +43,21 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
+    public ProductInfo saveAndFlush(ProductInfo productInfo) {
+        return productInfoRepository.saveAndFlush(productInfo);
+    }
+
+    @Override
+    @Transactional
+    public void updataState(Integer productStatus, String productId) {
+        productInfoRepository.updataState(productStatus,productId);
+    }
+
+
+    @Override
     public ProductInfo save(ProductInfo productInfo) {
         return productInfoRepository.save(productInfo);
     }
-
     @Override
     public void increaseStock(List<CartDTO> cartDTOList) {
         if (!CollectionUtils.isEmpty(cartDTOList)) {

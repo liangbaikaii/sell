@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>订单列表</title>
+    <title>商品列表</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../static/css/style.css" rel="stylesheet" >
 </head>
@@ -17,31 +17,31 @@
                         <thead>
                         <tr class="default">
                             <th>
-                                订单id
+                                商品id
                             </th>
                             <th>
-                                姓名
+                                商品名
                             </th>
                             <th>
-                                手机号
+                                图片
                             </th>
                             <th>
-                                地址
+                                单价
                             </th>
                             <th>
-                                金额
+                                库存
                             </th>
                             <th>
-                                订单状态
+                                介绍
                             </th>
                             <th>
-                                支付方式
-                            </th>
-                            <th>
-                                支付状态
+                                类别
                             </th>
                             <th>
                                 创建时间
+                            </th>
+                            <th>
+                                修改时间
                             </th>
                             <th colspan="2">
                                 操作
@@ -50,44 +50,49 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <#list orderDTOPage.content as  orderDTO>
+                        <#list productInfoPage.content as  product>
 
                         <tr class="success">
                             <td>
-                            ${orderDTO.orderId}
+                            ${product.productId}
                             </td>
                             <td>
-                            ${orderDTO.buyerName}
+                            ${product.productName}
                             </td>
                             <td>
-                            ${orderDTO.buyerPhone}
+                            ${product.productIcon}
                             </td>
                             <td>
-                            ${orderDTO.buyerAddress}
+                            ${product.productPrice}
                             </td>
                             <td>
-                            ${orderDTO.orderAmount}
+                            ${product.productStock}
                             </td>
                             <td>
-                            ${orderDTO.orderStatusMsg}
+                            ${product.productDescription}
                             </td>
                             <td>
-                                微信支付
+                            ${product.categoryType}
                             </td>
                             <td>
-                            ${orderDTO.payStatusMsg}
+                            ${product.createTime}
                             </td>
                             <td>
-                            ${orderDTO.createTime}
+                            ${product.updateTime}
                             </td>
                             <td>
-                                <a href="/sell/seller/order/detail?orderId=${orderDTO.orderId}">详情</a>
+                                <a href="/sell/seller/product/update?productId=${product.productId}">修改</a>
                             </td>
-                            <td>
-                                <#if orderDTO.orderStatusMsg =="新订单">
-                                    <a href="/sell/seller/order/cancel?orderId=${orderDTO.orderId}">取消</a>
-                                </#if>
-                            </td>
+                            <#if product.productStatus ==0 >
+                                <td>
+                                    <a href="/sell/seller/product/updateState?productStatus=1&productId=${product.productId}">下架</a>
+                                </td>
+                            </#if>
+                            <#if product.productStatus ==1 >
+                                <td>
+                                    <a href="/sell/seller/product/updateState?productStatus=0&productId=${product.productId}">上架</a>
+                                </td>
+                            </#if>
 
                         </tr>
                         </#list>
@@ -103,27 +108,27 @@
                         </li>
                     <#else>
                         <li>
-                            <a href="/sell/seller/order/list?page=${currentPage-1}">上一页</a>
+                            <a href="/sell/seller/product/list?page=${currentPage-1}">上一页</a>
                         </li>
                     </#if>
-                    <#list 1.. orderDTOPage.totalPages as  index>
+                    <#list 1.. productInfoPage.totalPages as  index>
                         <#if currentPage ==index>
                             <li class="disabled">
                                 <a href="#">${index}</a>
                             </li>
                         <#else>
                             <li>
-                                <a href="/sell/seller/order/list?page=${index}">${index}</a>
+                                <a href="/sell/seller/product/list?page=${index}">${index}</a>
                             </li>
                         </#if>
                     </#list>
-                    <#if currentPage gte  orderDTOPage.totalPages>
+                    <#if currentPage gte  productInfoPage.totalPages>
                         <li class="disabled">
                             <a href="#">下一页</a>
                         </li>
                     <#else>
                         <li>
-                            <a href="/sell/seller/order/list?page=${currentPage+1}">下一页</a>
+                            <a href="/sell/seller/product/list?page=${currentPage+1}">下一页</a>
                         </li>
                     </#if>
                     </ul>
