@@ -81,7 +81,7 @@
                             ${product.updateTime}
                             </td>
                             <td>
-                                <a href="/sell/seller/product/update?productId=${product.productId}">修改</a>
+                                <a href="/sell/seller/product/index?productId=${product.productId}">修改</a>
                             </td>
                             <#if product.productStatus ==0 >
                                 <td>

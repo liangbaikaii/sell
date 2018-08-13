@@ -1,24 +1,19 @@
-package com.lq.sell.dataobject;
-
+package com.lq.sell.form;
 
 import com.lq.sell.enums.ProductStatusEnum;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 import javax.persistence.Transient;
+import javax.validation.constraints.NotEmpty;
 import java.math.BigDecimal;
 import java.util.Date;
 
-@Entity
 @Data
-public class ProductInfo {
+public class ProductInfoForm {
 
-    @Id
-    private String productId;
+    private  String productId;
 
     private  String productName;
-
     private BigDecimal productPrice;
 
     /**库存*/
@@ -30,12 +25,7 @@ public class ProductInfo {
     /**0正常 1下架*/
     private  Integer productStatus= ProductStatusEnum.UP.getCode();
     private  Integer categoryType;
-    //忽略
-    @Transient
-    private  String productStatusMsg;
-    @Transient
-    private  String categoryTypeMsg;
+
     private Date createTime;
     private Date updateTime;
-
 }
