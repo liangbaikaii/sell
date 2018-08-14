@@ -1,137 +1,219 @@
-2018-08-13 21:19:18.805 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13280 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 21:19:18.834 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 21:19:24.706 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.774 seconds (JVM running for 7.872)
-2018-08-13 21:21:29.076 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8848 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 21:21:29.084 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 21:21:35.072 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.877 seconds (JVM running for 7.835)
-2018-08-13 21:22:17.123 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 2964 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 21:22:17.129 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 21:22:22.356 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.29 seconds (JVM running for 7.031)
-2018-08-13 22:05:11.421 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 5464 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:05:11.444 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:07:22.596 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11348 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:07:22.605 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:07:28.447 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.802 seconds (JVM running for 7.592)
-2018-08-13 22:07:40.432 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:10:23.569 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:14:12.800 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:15:03.524 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:15:04.841 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:15:20.455 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:15:21.365 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:15:44.637 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:15:52.294 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:16:30.838 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 4884 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:16:30.943 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:16:36.688 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.928 seconds (JVM running for 7.921)
-2018-08-13 22:16:46.517 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:18:17.918 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:18:24.511 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:18:27.101 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:19:02.400 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:21:39.806 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:23:20.903 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:23:24.012 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:23:45.102 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:25:01.698 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:26:27.878 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:27:02.446 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:29:31.406 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12896 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:29:31.417 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:29:37.038 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.401 seconds (JVM running for 7.212)
-2018-08-13 22:29:44.833 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:32:11.012 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12036 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:32:11.019 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:32:16.676 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.497 seconds (JVM running for 7.4)
-2018-08-13 22:33:12.144 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8000 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:33:12.151 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:33:18.749 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.444 seconds (JVM running for 8.287)
-2018-08-13 22:34:03.675 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 7624 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:34:03.681 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:34:10.087 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.37 seconds (JVM running for 8.117)
-2018-08-13 22:34:44.020 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12200 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:34:44.027 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:34:50.424 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.149 seconds (JVM running for 7.966)
-2018-08-13 22:37:01.411 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 3048 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:37:01.421 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:37:09.309 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.827 seconds (JVM running for 10.154)
-2018-08-13 22:37:09.767 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:40:10.793 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13784 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:40:10.801 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:40:16.061 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.391 seconds (JVM running for 7.266)
-2018-08-13 22:41:17.969 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8496 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:41:17.997 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:41:23.336 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.251 seconds (JVM running for 7.106)
-2018-08-13 22:41:28.035 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:42:23.307 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8016 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:42:23.316 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:42:29.455 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.914 seconds (JVM running for 7.685)
-2018-08-13 22:42:30.676 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:43:39.954 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 5460 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:43:39.964 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:43:47.220 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.283 seconds (JVM running for 9.395)
-2018-08-13 22:44:05.377 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:45:58.354 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 1604 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:45:58.365 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:46:05.312 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.373 seconds (JVM running for 9.502)
-2018-08-13 22:46:35.947 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 7624 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:46:35.953 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:46:40.828 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 3236 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:46:40.840 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:46:48.411 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.472 seconds (JVM running for 9.49)
-2018-08-13 22:47:53.760 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 9880 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:47:53.769 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:48:00.771 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.359 seconds (JVM running for 9.334)
-2018-08-13 22:48:31.060 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 5416 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:48:31.067 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:49:34.969 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8344 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:49:34.976 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:49:40.777 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.567 seconds (JVM running for 7.41)
-2018-08-13 22:50:23.532 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:51:57.443 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11872 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:51:57.466 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:52:04.798 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.314 seconds (JVM running for 9.23)
-2018-08-13 22:56:05.342 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10868 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:56:05.352 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:56:11.771 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.411 seconds (JVM running for 8.387)
-2018-08-13 22:56:30.651 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:57:03.985 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:57:53.624 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 22:59:41.889 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 6544 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 22:59:41.897 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 22:59:47.568 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.416 seconds (JVM running for 7.198)
-2018-08-13 22:59:58.798 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:00:04.699 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:01:20.294 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13724 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 23:01:20.317 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 23:01:27.723 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.329 seconds (JVM running for 9.282)
-2018-08-13 23:03:50.217 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12352 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 23:03:50.226 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 23:03:56.501 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.509 seconds (JVM running for 8.38)
-2018-08-13 23:03:56.660 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.SellProductController - e
-2018-08-13 23:05:13.770 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 6676 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 23:05:13.777 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 23:05:19.806 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.767 seconds (JVM running for 7.652)
-2018-08-13 23:05:48.325 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:05:50.658 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:05:53.019 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:06:01.235 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:08:36.535 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11868 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 23:08:36.542 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 23:08:41.954 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.166 seconds (JVM running for 6.917)
-2018-08-13 23:08:57.265 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:09:33.174 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 1644 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 23:09:33.182 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 23:09:38.894 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.495 seconds (JVM running for 7.291)
-2018-08-13 23:09:45.802 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:10:43.838 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10420 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 23:10:43.847 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 23:10:49.429 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.327 seconds (JVM running for 7.153)
-2018-08-13 23:10:57.239 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:12:31.880 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13832 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-13 23:12:31.889 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-13 23:12:38.083 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.956 seconds (JVM running for 7.744)
-2018-08-13 23:12:46.891 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:13:30.884 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:13:40.464 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-13 23:13:44.869 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:26:30.782 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12340 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 19:26:30.807 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 19:26:38.058 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.405 seconds (JVM running for 10.197)
+2018-08-14 19:26:46.654 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:28:26.356 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:56:05.706 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8304 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 19:56:05.716 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 19:56:13.441 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.702 seconds (JVM running for 9.947)
+2018-08-14 19:56:31.381 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:56:42.256 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:56:44.031 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:57:15.888 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:58:25.946 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:59:05.942 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 19:59:07.890 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 19:59:07.907 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:00:41.159 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:00:42.606 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:00:42.611 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:00:47.999 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:00:48.003 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:00:56.846 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:00:56.851 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:02:24.270 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 7812 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:02:24.281 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:02:32.685 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 10.179 seconds (JVM running for 11.396)
+2018-08-14 20:02:40.372 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:02:41.593 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:04:22.950 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:04:22.955 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:04:32.459 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:04:41.686 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:04:41.689 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:05:03.768 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:05:10.662 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:05:10.666 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:05:56.237 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:05:56.240 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:08:34.705 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12952 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:08:34.711 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:08:41.852 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.984 seconds (JVM running for 9.376)
+2018-08-14 20:08:45.096 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:08:46.956 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:08:48.505 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:08:49.736 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:08:49.749 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:09:51.759 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:09:51.764 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:10:24.616 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:10:24.620 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:11:27.221 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:11:27.226 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:12:08.789 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:12:08.794 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:12:42.925 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:12:42.931 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:12:48.489 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:12:48.493 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:13:31.325 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:13:31.329 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:13:46.857 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:13:52.202 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:13:52.206 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:14:19.016 [http-nio-8080-exec-5] INFO  com.lq.sell.controller.SellerOrderController - orderDTO-->OrderDTO(orderId=039-8d74-0465de, buyerName=王维, buyerPhone=15545458043, buyerAddress=重庆巴南区, buyerOpenid=o2DPo0aZ1K_kQudgZixTs735mJ7Y, orderAmount=180.40, orderStatus=2, payStatus=-1, orderStatusMsg=null, payStatusMsg=null, createTime=2018-08-11 15:22:52.0, updateTime=2018-08-11 18:06:34.0, orderDetailList=[OrderDetail(detailId=8d4-9366-a96618, orderId=039-8d74-0465de, productId=2, productName=梨子, productPrice=8.20, productQuantity=22, productIcon=222ee, createTime=2018-08-11 15:21:55.0, updateTime=2018-08-11 15:22:52.0)])
+2018-08-14 20:14:20.730 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:14:21.811 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:14:21.814 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:16:20.471 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 3808 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:16:20.479 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:16:27.036 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.278 seconds (JVM running for 8.149)
+2018-08-14 20:16:47.426 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:16:48.715 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:16:48.729 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:17:12.072 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 228 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:17:12.082 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:17:19.065 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.273 seconds (JVM running for 9.438)
+2018-08-14 20:18:30.638 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11864 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:18:30.647 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:18:37.978 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.861 seconds (JVM running for 9.92)
+2018-08-14 20:18:43.889 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:18:43.981 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:18:45.937 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:18:47.432 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:18:47.437 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:18:49.399 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:18:52.098 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:18:52.103 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:23:19.247 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 14280 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:23:19.257 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:23:26.205 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.29 seconds (JVM running for 9.282)
+2018-08-14 20:31:52.378 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12848 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:31:52.386 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:31:58.270 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.252 seconds (JVM running for 8.089)
+2018-08-14 20:32:05.263 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:07.332 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:32:07.347 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:08.588 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:32:08.591 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 20:32:11.751 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:13.426 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:32:13.430 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:17.343 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:32:17.346 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 20:32:20.495 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:23.171 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:24.223 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:25.786 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:30.657 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:31.867 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:32:38.758 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:40:34.859 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8864 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:40:34.867 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:40:41.093 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.023 seconds (JVM running for 7.798)
+2018-08-14 20:42:14.504 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:42:16.097 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:42:19.136 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:44:30.742 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:44:31.833 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:47:07.229 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:47:08.291 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:47:09.288 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:47:46.407 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:47:47.440 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:47:47.453 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:11.297 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:12.791 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:13.958 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:48:13.962 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:15.679 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:48:15.682 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 20:48:18.849 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:20.167 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:42.312 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:43.312 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:44.128 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:44.920 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:48:48.486 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:49:44.483 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:49:45.431 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:49:47.599 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:49:48.689 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:49:57.478 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:49:59.181 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:49:59.184 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:50:01.311 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:50:43.271 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:50:45.496 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:50:45.500 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:50:46.386 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:50:46.391 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 20:50:49.519 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:51:42.738 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:51:44.078 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:51:45.006 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:51:58.018 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 9724 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:51:58.025 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:52:03.475 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.593 seconds (JVM running for 7.376)
+2018-08-14 20:52:40.629 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:52:42.030 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:52:42.853 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:52:49.715 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:52:54.942 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:52:59.145 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:53:01.069 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:53:04.645 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:55:49.466 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 516 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:55:49.472 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:55:55.527 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.806 seconds (JVM running for 7.625)
+2018-08-14 20:56:12.177 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:56:12.964 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:56:14.013 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:56:14.026 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:56:15.211 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:56:15.214 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 20:56:18.377 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:56:19.661 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:56:37.981 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13232 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:56:37.991 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:56:45.026 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.416 seconds (JVM running for 9.418)
+2018-08-14 20:57:12.422 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 20:57:54.411 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 14196 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:57:54.420 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:58:03.808 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 10.748 seconds (JVM running for 11.695)
+2018-08-14 20:58:11.953 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:58:40.198 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 2012 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 20:58:40.204 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 20:58:45.657 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.719 seconds (JVM running for 7.631)
+2018-08-14 20:59:08.561 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 20:59:10.180 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:00:09.071 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:00:10.181 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:02:19.739 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10892 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 21:02:19.747 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 21:02:25.756 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.784 seconds (JVM running for 7.668)
+2018-08-14 21:02:33.446 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 21:06:24.554 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11756 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-14 21:06:24.563 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-14 21:06:31.653 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.304 seconds (JVM running for 9.199)
+2018-08-14 21:06:32.358 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:06:37.538 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:06:38.925 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 21:06:38.942 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:06:44.327 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 21:06:47.484 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:06:52.129 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 21:06:52.135 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:06:56.532 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 21:06:59.680 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:07:02.105 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 21:07:02.109 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:07:04.282 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 21:07:07.412 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:07:19.890 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:07:29.702 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 21:07:32.858 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:07:42.849 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [] ProductCategory findOne[]
+2018-08-14 21:07:42.853 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-14 21:07:45.883 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
+2018-08-14 21:07:49.040 [http-nio-8080-exec-8] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
