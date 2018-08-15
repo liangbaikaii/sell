@@ -2,6 +2,7 @@ package com.lq.sell;
 
 import com.lq.sell.dataobject.ProductCategory;
 import com.lq.sell.repository.ProductCategoryRepository;
+import org.apache.commons.codec.digest.Md5Crypt;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -18,20 +19,15 @@ import java.util.Optional;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SellApplicationTests {
-    private final Logger logger = LoggerFactory.getLogger(SellApplication.class);
+//    private final Logger logger = LoggerFactory.getLogger(SellApplication.class);
 
-    @Autowired
-    private ProductCategoryRepository productCategoryRepository;
+//    @Autowired
+//    private ProductCategoryRepository productCategoryRepository;
 
     @Test
     public void test() {
-        List<Integer> list = Arrays.asList(2, 3,4,5);
-        List<ProductCategory> byCategoryTypeIn = productCategoryRepository.findByCategoryTypeIn(list);
-        byCategoryTypeIn.forEach(productCategory -> {
-            System.out.println(productCategory);
-        });
-//        ProductCategory productCategory=new ProductCategory("test",4);
-//        productCategoryRepository.save(productCategory);
+        String s =   Md5Crypt.apr1Crypt("123456".getBytes());
+
     }
 
 }
