@@ -1,57 +1,64 @@
-2018-08-15 20:33:35.709 [main] INFO  com.lq.sell.SellApplicationTests - Starting SellApplicationTests on LQ_ with PID 12924 (started by LQ in E:\newwork\sell)
-2018-08-15 20:33:35.736 [main] INFO  com.lq.sell.SellApplicationTests - No active profile set, falling back to default profiles: default
-2018-08-15 20:33:53.252 [main] INFO  com.lq.sell.SellApplicationTests - Started SellApplicationTests in 19.999 seconds (JVM running for 26.191)
-2018-08-15 20:34:22.805 [main] INFO  com.lq.sell.SellApplicationTests - Starting SellApplicationTests on LQ_ with PID 12252 (started by LQ in E:\newwork\sell)
-2018-08-15 20:34:22.810 [main] INFO  com.lq.sell.SellApplicationTests - No active profile set, falling back to default profiles: default
-2018-08-15 20:34:29.933 [main] INFO  com.lq.sell.SellApplicationTests - Started SellApplicationTests in 7.824 seconds (JVM running for 9.73)
-2018-08-15 20:34:53.173 [main] INFO  com.lq.sell.SellApplicationTests - Starting SellApplicationTests on LQ_ with PID 13896 (started by LQ in E:\newwork\sell)
-2018-08-15 20:34:53.178 [main] INFO  com.lq.sell.SellApplicationTests - No active profile set, falling back to default profiles: default
-2018-08-15 20:35:00.786 [main] INFO  com.lq.sell.SellApplicationTests - Started SellApplicationTests in 8.349 seconds (JVM running for 10.091)
-2018-08-15 20:35:25.768 [main] INFO  com.lq.sell.SellApplicationTests - Starting SellApplicationTests on LQ_ with PID 6832 (started by LQ in E:\newwork\sell)
-2018-08-15 20:35:25.772 [main] INFO  com.lq.sell.SellApplicationTests - No active profile set, falling back to default profiles: default
-2018-08-15 20:35:32.719 [main] INFO  com.lq.sell.SellApplicationTests - Started SellApplicationTests in 7.66 seconds (JVM running for 9.562)
-2018-08-15 20:37:03.114 [main] INFO  com.lq.sell.SellApplicationTests - Starting SellApplicationTests on LQ_ with PID 15348 (started by LQ in E:\newwork\sell)
-2018-08-15 20:37:03.122 [main] INFO  com.lq.sell.SellApplicationTests - No active profile set, falling back to default profiles: default
-2018-08-15 20:37:10.288 [main] INFO  com.lq.sell.SellApplicationTests - Started SellApplicationTests in 7.903 seconds (JVM running for 9.624)
-2018-08-15 20:37:23.580 [main] INFO  com.lq.sell.SellApplicationTests - Starting SellApplicationTests on LQ_ with PID 13896 (started by LQ in E:\newwork\sell)
-2018-08-15 20:37:23.587 [main] INFO  com.lq.sell.SellApplicationTests - No active profile set, falling back to default profiles: default
-2018-08-15 20:37:30.620 [main] INFO  com.lq.sell.SellApplicationTests - Started SellApplicationTests in 7.749 seconds (JVM running for 9.377)
-2018-08-15 21:40:19.280 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13976 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:40:19.292 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:40:26.898 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.726 seconds (JVM running for 10.985)
-2018-08-15 21:42:15.550 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12716 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:42:15.557 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:42:23.240 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.773 seconds (JVM running for 9.661)
-2018-08-15 21:44:45.425 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 1996 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:44:45.432 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:44:54.809 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 10.301 seconds (JVM running for 12.586)
-2018-08-15 21:46:14.969 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10288 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:46:14.980 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:46:23.054 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.952 seconds (JVM running for 9.926)
-2018-08-15 21:47:19.714 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 6388 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:47:19.725 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:47:26.880 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.219 seconds (JVM running for 9.211)
-2018-08-15 21:49:55.223 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12752 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:49:55.232 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:50:01.204 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 6.763 seconds (JVM running for 7.602)
-2018-08-15 21:52:05.231 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 14668 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:52:05.242 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:52:13.006 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.567 seconds (JVM running for 9.505)
-2018-08-15 21:52:26.554 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-15 21:53:50.986 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13076 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:53:51.010 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:53:59.654 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 9.625 seconds (JVM running for 11.131)
-2018-08-15 21:56:10.208 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 9148 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 21:56:10.224 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 21:56:20.078 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 10.79 seconds (JVM running for 11.839)
-2018-08-15 22:00:13.648 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 9068 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
-2018-08-15 22:00:13.658 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
-2018-08-15 22:00:19.972 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.057 seconds (JVM running for 8.003)
-2018-08-15 22:00:47.268 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-15 22:00:48.977 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-15 22:01:01.226 [http-nio-8080-exec-8] INFO  com.lq.sell.controller.SellerOrderController - orderDTO-->OrderDTO(orderId=88c-b782-f5213e, buyerName=杜甫, buyerPhone=15536659955, buyerAddress=四川省成都市武侯区, buyerOpenid=o2DPo0aZ1K_kQudgZixTs735mJ7Y, orderAmount=9.40, orderStatus=0, payStatus=-1, orderStatusMsg=null, payStatusMsg=null, createTime=2018-08-11 15:22:11.0, updateTime=2018-08-11 15:22:11.0, orderDetailList=[OrderDetail(detailId=afb-a03c-c499c0, orderId=88c-b782-f5213e, productId=1, productName=水, productPrice=5.00, productQuantity=1, productIcon=1xxx, createTime=2018-08-11 15:22:00.0, updateTime=2018-08-11 15:22:11.0), OrderDetail(detailId=eb3-8515-14fdec, orderId=88c-b782-f5213e, productId=3, productName=鸡蛋, productPrice=2.20, productQuantity=2, productIcon=33rrr, createTime=2018-08-11 15:21:49.0, updateTime=2018-08-11 15:22:11.0)])
-2018-08-15 22:01:06.858 [http-nio-8080-exec-10] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-15 22:01:08.278 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-15 22:01:20.825 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl  time [%d] ProductCategory save[]
-2018-08-15 22:01:24.046 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
-2018-08-15 22:01:27.452 [http-nio-8080-exec-4] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-16 00:00:57.879 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 7212 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-16 00:00:57.919 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-16 00:01:04.530 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.824 seconds (JVM running for 8.654)
+2018-08-16 00:01:24.668 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - token is:null
+2018-08-16 00:01:24.668 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - token is:nulltoken不存在cookie
+2018-08-16 00:01:31.248 [http-nio-8080-exec-2] INFO  com.lq.sell.config.AuthAspect - token is:null
+2018-08-16 00:01:31.249 [http-nio-8080-exec-2] INFO  com.lq.sell.config.AuthAspect - token is:nulltoken不存在cookie
+2018-08-16 00:01:56.222 [http-nio-8080-exec-7] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-16 00:01:57.509 [http-nio-8080-exec-8] INFO  com.lq.sell.config.AuthAspect - token is:1-aef8518812ec9
+2018-08-16 00:01:57.515 [http-nio-8080-exec-8] INFO  com.lq.sell.config.AuthAspect - redis token is:1
+2018-08-16 00:01:57.516 [http-nio-8080-exec-8] INFO  com.lq.sell.config.AuthAspect - redis2 token is:1
+2018-08-16 00:02:10.896 [http-nio-8080-exec-9] INFO  com.lq.sell.config.AuthAspect - token is:1-aef8518812ec9
+2018-08-16 00:02:10.898 [http-nio-8080-exec-9] INFO  com.lq.sell.config.AuthAspect - redis token is:1
+2018-08-16 00:02:10.899 [http-nio-8080-exec-9] INFO  com.lq.sell.config.AuthAspect - redis2 token is:1
+2018-08-16 00:02:10.906 [http-nio-8080-exec-9] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-16 00:09:04.944 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13260 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-16 00:09:04.959 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-16 00:09:13.917 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 10.29 seconds (JVM running for 11.433)
+2018-08-16 00:09:17.608 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - token is:1-9d49881e1f84a
+2018-08-16 00:09:18.487 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - redis token is:1
+2018-08-16 00:09:18.487 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - redis2 token is:1
+2018-08-16 00:09:18.497 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-16 00:09:19.879 [http-nio-8080-exec-3] INFO  com.lq.sell.config.AuthAspect - token is:1-9d49881e1f84a
+2018-08-16 00:09:19.881 [http-nio-8080-exec-3] INFO  com.lq.sell.config.AuthAspect - redis token is:1
+2018-08-16 00:09:19.881 [http-nio-8080-exec-3] INFO  com.lq.sell.config.AuthAspect - redis2 token is:1
+2018-08-16 00:09:19.883 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-16 00:11:15.372 [http-nio-8080-exec-9] INFO  com.lq.sell.config.AuthAspect - token is:1-9d49881e1f84a
+2018-08-16 00:11:15.374 [http-nio-8080-exec-9] INFO  com.lq.sell.config.AuthAspect - redis token is:null
+2018-08-16 00:11:49.083 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 16008 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-16 00:11:49.098 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-16 00:11:56.680 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.366 seconds (JVM running for 9.144)
+2018-08-16 00:12:29.901 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - token is:1-9d49881e1f84a
+2018-08-16 00:12:30.583 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - redis token is:null
+2018-08-16 00:12:30.588 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - token is:1-9d49881e1f84atoken不存在cookie
+2018-08-16 00:15:13.913 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 4240 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-16 00:15:13.923 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-16 00:15:22.596 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 9.631 seconds (JVM running for 11.283)
+2018-08-16 00:15:26.547 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - token is:1-9d49881e1f84a
+2018-08-16 00:15:27.282 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - redis token is:null
+2018-08-16 00:15:27.287 [http-nio-8080-exec-1] INFO  com.lq.sell.config.AuthAspect - token is:1-9d49881e1f84atoken不存在cookie
+2018-08-16 00:15:46.557 [http-nio-8080-exec-4] INFO  com.lq.sell.config.AuthAspect - token is:1-c4b9b99991a87
+2018-08-16 00:15:46.560 [http-nio-8080-exec-4] INFO  com.lq.sell.config.AuthAspect - redis token is:1
+2018-08-16 00:15:47.669 [http-nio-8080-exec-5] INFO  com.lq.sell.config.AuthAspect - token is:1-c4b9b99991a87
+2018-08-16 00:15:47.670 [http-nio-8080-exec-5] INFO  com.lq.sell.config.AuthAspect - redis token is:1
+2018-08-16 00:15:47.675 [http-nio-8080-exec-5] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-16 00:15:48.291 [http-nio-8080-exec-6] INFO  com.lq.sell.config.AuthAspect - token is:1-c4b9b99991a87
+2018-08-16 00:15:48.294 [http-nio-8080-exec-6] INFO  com.lq.sell.config.AuthAspect - redis token is:1
+2018-08-16 00:15:48.298 [http-nio-8080-exec-6] INFO  com.lq.sell.SellApplication -  in CategoryServiceImpl time [] ProductCategory findAll
+2018-08-16 00:19:10.174 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 6924 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-16 00:19:10.182 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-16 00:19:17.304 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.916 seconds (JVM running for 8.747)
+2018-08-16 00:19:40.792 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.SellerUserController - token---------
+2018-08-16 00:21:22.489 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 17396 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-16 00:21:22.496 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-16 00:21:29.203 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.68 seconds (JVM running for 8.589)
+2018-08-16 00:21:44.523 [http-nio-8080-exec-2] INFO  com.lq.sell.config.AuthAspect - token is:1-c4b9b99991a87
+2018-08-16 00:21:45.302 [http-nio-8080-exec-2] INFO  com.lq.sell.config.AuthAspect - redis token is:null
+2018-08-16 00:21:45.307 [http-nio-8080-exec-2] INFO  com.lq.sell.config.AuthAspect - token is:1-c4b9b99991a87token不存在cookie
+2018-08-16 00:22:01.362 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.SellerUserController - token---------
+2018-08-16 00:23:00.728 [http-nio-8080-exec-6] INFO  com.lq.sell.controller.SellerUserController - token---------
+2018-08-16 00:25:05.141 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 11528 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-16 00:25:05.151 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-16 00:25:12.494 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.243 seconds (JVM running for 9.053)
+2018-08-16 00:25:38.887 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.SellerUserController - token---------
