@@ -25,5 +25,7 @@ wechat:
 #  secret: 765831a9b97bee46f7d1b03efbbb3ec3
   returnUrl: http://a714bbd8.ngrok.io/sell/wechat/userInfo
   token: myo2o
+mybatis:
+  type-aliases-package: com.lq.sell.dataobject
 
 

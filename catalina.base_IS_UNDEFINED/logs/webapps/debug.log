@@ -1,7 +1,29 @@
-2018-08-16 00:00:57.896 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-08-16 00:09:04.956 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-08-16 00:11:49.095 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-08-16 00:15:13.918 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-08-16 00:19:10.179 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-08-16 00:21:22.493 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-08-16 00:25:05.147 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 15:46:42.428 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 15:48:49.205 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 15:48:59.096 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category values(?,?,?,?) 
+2018-08-18 15:50:17.776 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 15:50:26.413 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category values(?,?,?,?) 
+2018-08-18 15:54:30.176 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 15:54:38.368 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category values(?,?,?,?) 
+2018-08-18 15:55:42.167 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 15:55:51.761 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category values(?,?,?,?) 
+2018-08-18 15:57:02.307 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 15:57:12.581 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category values(?,?,?,?) 
+2018-08-18 15:57:12.621 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==> Parameters: mybatis(String), 2(Integer), 2018-08-18 15:57:12.555(Timestamp), 2018-08-18 15:57:12.555(Timestamp)
+2018-08-18 16:01:22.954 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 16:01:32.412 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category values(?,?,?,?) 
+2018-08-18 16:01:32.450 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==> Parameters: mybatis(String), 2(Integer), 2018-08-18 16:01:32.387(Timestamp), 2018-08-18 16:01:32.387(Timestamp)
+2018-08-18 16:04:51.523 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 16:04:59.599 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category values(?,?,?,?) 
+2018-08-18 16:04:59.630 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==> Parameters: mybatis(String), 2(Integer), 2018-08-18 16:04:59.576(Timestamp), 2018-08-18 16:04:59.576(Timestamp)
+2018-08-18 16:06:13.780 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 16:06:22.117 [main] DEBUG c.l.s.r.m.ProductCategoryMapper.insert!selectKey - ==>  Preparing: call identity() 
+2018-08-18 16:06:22.146 [main] DEBUG c.l.s.r.m.ProductCategoryMapper.insert!selectKey - ==> Parameters: 
+2018-08-18 16:07:14.950 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 16:07:23.722 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category(category_name,category_type,create_time,update_time) values(?,?,?,?) 
+2018-08-18 16:07:23.762 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==> Parameters: mybatis(String), 2(Integer), 2018-08-18 16:07:23.697(Timestamp), 2018-08-18 16:07:23.697(Timestamp)
+2018-08-18 16:07:23.842 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - <==    Updates: 1
+2018-08-18 16:14:41.002 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 16:14:50.264 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category(category_name,category_type,create_time,update_time) values(?,?,?,?) 
+2018-08-18 16:14:50.304 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==> Parameters: mybatis(String), 2(Integer), 2018-08-18 16:14:50.237(Timestamp), 2018-08-18 16:14:50.237(Timestamp)
+2018-08-18 16:14:50.418 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - <==    Updates: 1

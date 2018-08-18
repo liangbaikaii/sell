@@ -41,10 +41,7 @@ public class AuthAspect {
         }
         Object o = redisTemplate.opsForValue().get(cookieValueOfToken);
         log.info("redis token is:" + o);
-        Set keys = redisTemplate.keys("*");
-        keys.forEach(e -> {
-            log.info(e.toString());
-        });
+
         if (o == null) {
             log.info("token is:" + cookieValueOfToken + "token不存在cookie");
             throw new AuthException("token不存在redis 或者已过期");
