@@ -8,8 +8,11 @@ import com.lq.sell.dataobject.ProductInfo;
 import com.lq.sell.service.CategoryService;
 import com.lq.sell.service.ProductService;
 import com.lq.sell.utils.ResultVOUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,6 +27,7 @@ import java.util.stream.Collectors;
  */
 @RestController
 @RequestMapping("/buyer/product")
+@Slf4j
 public class BuyerProductController {
 
     @Autowired
@@ -32,7 +36,9 @@ public class BuyerProductController {
     private CategoryService categoryService;
 
     @GetMapping("/list")
+    @Cacheable(cacheNames = "products", key = "123")
     public ResultVO list() {
+        log.info("enter products");
         List<ProductVO> productVOList = new ArrayList<>();
         List<ProductInfo> productInfoList = productService.findUpAll();
         List<Integer> categoryTypeList =
@@ -55,7 +61,6 @@ public class BuyerProductController {
         }
         return ResultVOUtils.success(productVOList);
     }
-
 
 
 }

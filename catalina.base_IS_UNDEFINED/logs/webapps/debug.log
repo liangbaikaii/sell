@@ -1,0 +1,17 @@
+2018-08-18 18:03:27.798 [main] DEBUG c.l.s.repository.mapper.ProductCategoryMapperTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 18:03:37.483 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==>  Preparing: insert into product_category(category_name,category_type,create_time,update_time) values(?,?,?,?) 
+2018-08-18 18:03:37.525 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - ==> Parameters: mybatis(String), 2(Integer), 2018-08-18 18:03:37.458(Timestamp), 2018-08-18 18:03:37.458(Timestamp)
+2018-08-18 18:03:37.621 [main] DEBUG c.l.s.r.mapper.ProductCategoryMapper.insert - <==    Updates: 1
+2018-08-18 18:06:12.694 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 18:08:27.852 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 18:23:22.813 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 20:46:31.828 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 20:54:38.825 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 20:54:49.764 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 20:56:59.061 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 21:00:49.320 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 21:17:28.868 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 21:18:37.033 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 21:19:23.930 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 21:20:04.884 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-08-18 21:20:57.792 [main] DEBUG com.lq.sell.SellApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE

@@ -1,0 +1,52 @@
+2018-08-18 18:03:27.796 [main] INFO  c.l.s.repository.mapper.ProductCategoryMapperTest - Starting ProductCategoryMapperTest on LQ_ with PID 13288 (started by LQ in E:\newwork\sell)
+2018-08-18 18:03:27.802 [main] INFO  c.l.s.repository.mapper.ProductCategoryMapperTest - No active profile set, falling back to default profiles: default
+2018-08-18 18:03:37.316 [main] INFO  c.l.s.repository.mapper.ProductCategoryMapperTest - Started ProductCategoryMapperTest in 10.875 seconds (JVM running for 13.463)
+2018-08-18 18:06:12.686 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 8500 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 18:06:12.699 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 18:06:21.201 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 9.531 seconds (JVM running for 10.696)
+2018-08-18 18:08:27.838 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 13704 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 18:08:27.858 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 18:08:37.574 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 10.845 seconds (JVM running for 12.139)
+2018-08-18 18:23:22.807 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 14116 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 18:23:22.816 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 18:23:29.696 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.635 seconds (JVM running for 8.476)
+2018-08-18 20:46:31.823 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12216 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 20:46:31.831 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 20:46:40.568 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 9.603 seconds (JVM running for 12.386)
+2018-08-18 20:54:38.821 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12584 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 20:54:38.829 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 20:54:49.760 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 15604 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 20:54:49.766 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 20:54:58.501 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 9.727 seconds (JVM running for 10.566)
+2018-08-18 20:56:59.055 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 12500 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 20:56:59.064 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 21:00:49.315 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 15636 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 21:00:49.323 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 21:00:56.248 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.627 seconds (JVM running for 8.478)
+2018-08-18 21:17:28.864 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 5920 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 21:17:28.871 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 21:17:36.671 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 9.09 seconds (JVM running for 9.989)
+2018-08-18 21:17:53.965 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.BuyerProductController - enter products
+2018-08-18 21:17:54.369 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-18 21:18:03.299 [http-nio-8080-exec-2] INFO  com.lq.sell.controller.BuyerProductController - enter products
+2018-08-18 21:18:03.306 [http-nio-8080-exec-2] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-18 21:18:13.745 [http-nio-8080-exec-3] INFO  com.lq.sell.controller.BuyerProductController - enter products
+2018-08-18 21:18:13.749 [http-nio-8080-exec-3] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-18 21:18:37.029 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 16504 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 21:18:37.035 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 21:18:44.683 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.444 seconds (JVM running for 9.379)
+2018-08-18 21:19:23.925 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 4452 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 21:19:23.933 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 21:19:30.939 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 7.843 seconds (JVM running for 8.734)
+2018-08-18 21:19:34.579 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.BuyerProductController - enter products
+2018-08-18 21:19:34.762 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-18 21:20:04.878 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 7300 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 21:20:04.886 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 21:20:12.235 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.401 seconds (JVM running for 9.325)
+2018-08-18 21:20:13.148 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.BuyerProductController - enter products
+2018-08-18 21:20:13.324 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]
+2018-08-18 21:20:57.788 [main] INFO  com.lq.sell.SellApplication - Starting SellApplication on LQ_ with PID 10624 (E:\newwork\sell\target\classes started by LQ in E:\newwork\sell)
+2018-08-18 21:20:57.794 [main] INFO  com.lq.sell.SellApplication - No active profile set, falling back to default profiles: default
+2018-08-18 21:21:05.438 [main] INFO  com.lq.sell.SellApplication - Started SellApplication in 8.364 seconds (JVM running for 9.263)
+2018-08-18 21:21:06.451 [http-nio-8080-exec-1] INFO  com.lq.sell.controller.BuyerProductController - enter products
+2018-08-18 21:21:06.626 [http-nio-8080-exec-1] INFO  com.lq.sell.SellApplication - in CategoryServiceImpl  time [] ProductCategory findByCategoryTypeIn[]

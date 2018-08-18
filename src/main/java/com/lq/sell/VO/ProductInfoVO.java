@@ -3,10 +3,11 @@ package com.lq.sell.VO;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 @Data
-public class ProductInfoVO {
+public class ProductInfoVO  implements Serializable {
     @JsonProperty("id")
     private String productId;
 

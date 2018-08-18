@@ -3,10 +3,11 @@ package com.lq.sell.VO;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.List;
 
 @Data
-public class ProductVO {
+public class ProductVO  implements Serializable{
     @JsonProperty("name")
     private  String categoryName;
     @JsonProperty("type")
