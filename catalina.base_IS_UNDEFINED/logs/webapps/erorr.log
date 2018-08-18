@@ -1,5 +1,0 @@
-2018-08-16 00:01:24.670 [http-nio-8080-exec-1] ERROR com.lq.sell.config.SellExceptionHandler - AuthExceptioncom.lq.sell.sellException.AuthException: token不存在cookie
-2018-08-16 00:01:31.249 [http-nio-8080-exec-2] ERROR com.lq.sell.config.SellExceptionHandler - AuthExceptioncom.lq.sell.sellException.AuthException: token不存在cookie
-2018-08-16 00:12:30.590 [http-nio-8080-exec-1] ERROR com.lq.sell.config.SellExceptionHandler - AuthExceptioncom.lq.sell.sellException.AuthException: token不存在redis 或者已过期
-2018-08-16 00:15:27.289 [http-nio-8080-exec-1] ERROR com.lq.sell.config.SellExceptionHandler - AuthExceptioncom.lq.sell.sellException.AuthException: token不存在redis 或者已过期
-2018-08-16 00:21:45.309 [http-nio-8080-exec-2] ERROR com.lq.sell.config.SellExceptionHandler - AuthExceptioncom.lq.sell.sellException.AuthException: token不存在redis 或者已过期
