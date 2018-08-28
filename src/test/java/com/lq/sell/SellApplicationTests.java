@@ -19,10 +19,10 @@ import java.util.Optional;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SellApplicationTests {
-//    private final Logger logger = LoggerFactory.getLogger(SellApplication.class);
+    private final Logger logger = LoggerFactory.getLogger(SellApplication.class);
 
-//    @Autowired
-//    private ProductCategoryRepository productCategoryRepository;
+    @Autowired
+    private ProductCategoryRepository productCategoryRepository;
 
     @Test
     public void test() {
